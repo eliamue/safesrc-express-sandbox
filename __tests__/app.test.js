@@ -25,7 +25,7 @@ describe('demo CRUD routes', () => {
       website: 'https://www.tubman.org/',
       category: 'Mental Health',
       category_id: 1,
-      subcategory: 'General',
+      subcategory: 'General'
     };
     const res = await request(app)
       .post('/api/v1/resources')
